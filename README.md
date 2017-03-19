@@ -1,6 +1,6 @@
 # k2d: Import Kindle Highlights to Day One 2.
 
-[Dayone 2](http://dayoneapp.com/) is currently one of the best journaling / note-taking app on MacOS. Its multi-journals feature. This little commandline tool is here to help you importing highlights from Kindle to Day One 2. 
+This little commandline tool is here to help you importing highlights from Kindle to [Dayone 2](http://dayoneapp.com/). 
 
 For each highligh, k2d will creat an entry on Dayone 2, the date will be the timestamp you highlighted the quote, and both the book title and author will be saved to the entry as tags.
 
