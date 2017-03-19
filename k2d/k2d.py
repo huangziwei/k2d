@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import re
 import sys
@@ -18,12 +20,12 @@ class k2d:
     
     timestamp = datetime.datetime.now().strftime('%Y%m%d')
     clippings_path = save_dir + '/My_Clippings_{}.txt'.format(timestamp)
-    # try:
-    #     shutil.move(clippings, clippings_path)
-    # except FileNotFoundError:
-    #     print('Cannot find the file \'My Clippings.txt\' in your Kindle!')
-    #     sys.exit(0)
-    shutil.copy(clippings, clippings_path)
+    try:
+        shutil.move(clippings, clippings_path)
+    except FileNotFoundError:
+        print('Cannot find the file \'My Clippings.txt\' in your Kindle!')
+        sys.exit(0)
+    # shutil.copy(clippings, clippings_path)
     
     def __init__(self, journal):
 

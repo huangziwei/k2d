@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+from k2d.k2d import *
+import sys
+
+journal = sys.argv[1]
+k = k2d(journal)
+k.run()
+print('\nDONE!')
