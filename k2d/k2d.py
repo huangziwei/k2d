@@ -81,7 +81,7 @@ class k2d:
         everything = everything.replace('\ufeff', '')
         sections = everything.split('==========\n')
 
-        print("Importing {} highlight(s):\n".format(len(sections)) )
+        print("Importing {} highlight(s):\n".format(len(sections)-1) )
 
         for i, clip in enumerate(sections[:-1]):
 

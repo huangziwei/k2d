@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='k2d',
-      version='0.1.0',
+      version='0.1.1',
       author='Ziwei Huang',
       author_email='huang-ziwei@outlook.com',
       url='https://github.com/huangziwei/k2d',
