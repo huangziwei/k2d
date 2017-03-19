@@ -29,6 +29,6 @@ For example, importing highlights to a Jounral called `Quotes`:
 
 	k2d Quotes
 
-![terminal](imgs/terminal.png)
+![terminal](img/terminal.png)
 
-![dayone](imgs/dayone2.png)
+![dayone](img/dayone2.png)

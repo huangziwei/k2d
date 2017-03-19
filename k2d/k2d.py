@@ -96,7 +96,7 @@ class k2d:
             with open('tmp.txt', 'w') as f:
                 f.write(content)
             
-            print('\n({:02d}/{:02d}) Importing a clip from {}.\n'.format(i, len(sections)-1, meta_info['book_title']))
+            print('\n({:02d}/{:02d}) Importing a clip from {}.\n'.format(i+1, len(sections)-1, meta_info['book_title']))
             print('\t' + content)
             
             cmd0 = 'dayone2 '
