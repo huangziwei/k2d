@@ -1,0 +1,4 @@
+__pycache__/
+build/
+dist/
+k2d.egg-info/*
