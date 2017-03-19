@@ -17,17 +17,21 @@ For each highligh, k2d will creat an entry on Dayone 2, the date will be the tim
 
 ## Usage
 
-First you need to install Dayone 2 CLI tool
+First, install Dayone 2 CLI tool:
 
 	sudo /Applications/Day\ One.app/Contents/Resources/install_cli.sh
+
+Then, plug your Kindle to your Mac via USB (Sorry, I don't think there's a way to get rid of the cable yet).
 
 In Dayone 2, create a new Journal for your Kindle highlights or just use any existing Jounrals you like, then simply enter:
 
 	k2d [name of the Jounral]
 
-For example, importing highlights to a Jounral called `Quotes`:
+in your terminal. For example, importing highlights to a Jounral called `Quotes`:
 
 	k2d Quotes
+
+## Screenshots
 
 ![terminal](img/terminal.png)
 
