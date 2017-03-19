@@ -25,4 +25,4 @@ For example, importing highlights to a Jounral called `Quotes`:
 
 ![terminal](imgs/terminal.png)
 
-![dayone](imgs/dayone.png)
+![dayone](imgs/dayone2.png)
