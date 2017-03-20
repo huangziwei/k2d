@@ -2,7 +2,7 @@
 
 This little commandline tool is here to help you importing highlights from Kindle to [Day One 2](http://dayoneapp.com/). 
 
-For each highligh, k2d will creat an entry on Day One 2, the date will be the timestamp you highlighted the quote, and both the book title and author will be saved to the entry as tags.
+For each highlight, k2d will creat an entry on Day One 2, the date will be the timestamp you highlighted the quote, and both the book title and author will be saved to the entry as tags.
 
 **Noted**! In order to avoid re-importing the same highlight into Day One and creating duplicated entries, the `My Clippings.txt` file in Kindle will be moved to `~/Document/k2d` directory. `My Clippings.txt` is just a log file and removing it will not interfere with the highlights in your `.azw` or `.mobi` files.
 

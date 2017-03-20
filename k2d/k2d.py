@@ -10,6 +10,9 @@ import datetime
 class k2d:
 
 
+    if not os.path.isfile('/usr/local/bin/dayone2'):
+        
+
     home_dir = os.path.expanduser('~')
     save_dir = home_dir + '/Documents/k2d'
 
